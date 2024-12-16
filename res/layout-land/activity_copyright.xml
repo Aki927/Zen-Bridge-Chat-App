@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="NestedWeights"
+    tools:context=".CopyrightActivity">
+
+    <!-- Banner -->
+    <RelativeLayout
+        android:id="@+id/main_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/rebecca_purple">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:layout_marginStart="165dp"
+            android:layout_marginEnd="175dp"
+            android:maxWidth="400dp"
+            android:text="@string/terms_and_conditions"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <WebView
+            android:id="@+id/disclaimer_web_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:layout_weight="4"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:text="@string/you_must_accept_the_terms_and_conditions_in_order_to_use_this_application"
+            />
+
+        <CheckBox
+            android:id="@+id/accept_checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:maxWidth="300dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="@string/i_accept_terms_and_conditions"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".2"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/proceed_button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/proceed" />
+
+        <Button
+            android:id="@+id/cancel_button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/cancel" />
+    </LinearLayout>
+</LinearLayout>

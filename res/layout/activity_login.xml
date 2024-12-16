@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:ignore="NestedWeights"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="194dp"
+        android:layout_height="162dp"
+        android:layout_gravity="center"
+        android:layout_weight="2"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/zen_bridge_logo"
+        android:maxWidth="100dp"
+        android:maxHeight="100dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/zb_logo" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".2"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/enter_phone_num_text" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".5"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.hbb20.CountryCodePicker
+            android:id="@+id/countryCode"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            app:ccp_defaultNameCode="CA"
+            app:ccp_textSize="18sp">
+
+        </com.hbb20.CountryCodePicker>
+
+        <EditText
+            android:id="@+id/phoneNumber"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:autofillHints="Enter phone number"
+            android:ems="10"
+            android:textSize="20sp"
+            android:inputType="phone"
+            android:hint="@string/phone_number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:onClick="loginButtonClicked"
+            android:text="@string/otp_login_button" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="dark_grey">#37474F</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#F00</color>
+    <color name="dark_red">#B71C1C</color>
+    <color name="teal">#006064</color>
+    <color name="grey">#B0BEC5</color>
+    <color name="dark_green">#1B5E20</color>
+    <color name="customPrimary">#663399</color>
+    <color name="customPrimaryDark">#E65100</color>
+    <color name="light_blue">#B3E5FC</color>
+    <color name="customAccent">#1565C0</color>
+    <color name="dark_blue">#0D47A1</color>
+    <color name="purple50">#F3E5F5</color>
+    <color name="rebecca_purple">#663399</color>
+</resources>

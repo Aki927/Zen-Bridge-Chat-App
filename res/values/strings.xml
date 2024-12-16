@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Zen Bridge Chat</string>
+    <string name="enter_phone_num_text">Enter your phone number</string>
+    <string name="enter_otp">Enter the One Time Pass</string>
+    <string name="enter_username">Enter Your Username</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="otp_login_button">Login</string>
+    <string name="otp_verify_button">Verify</string>
+    <string name="start_button">Start</string>
+    <string name="otp_pass">One Time Pass</string>
+    <string name="resend_otp_textview">Resend OTP in 60 seconds</string>
+    <string name="zen_bridge_logo">ZenBridge Logo</string>
+    <string name="username_textview">Username</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="chat_menu">Chat</string>
+    <string name="settings_menu">Settings</string>
+    <string name="info_menu">Info</string>
+    <string name="back_button">Back to previous page</string>
+    <string name="contact_number_input">Enter contact phone number: </string>
+    <string name="change_username">Change username</string>
+    <string name="enter_new_username">Enter new username</string>
+    <string name="change">Change</string>
+    <string name="community_events_meditation_yoga">Community Events, Meditation, Yoga</string>
+    <string name="help_us_improve_our_app">Help us improve our app</string>
+    <string name="report_bugs">Report Bugs</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="your_feedback_is_important_to_us">Your feedback is important to us</string>
+    <string name="visit_zen_bridge_webapp">Visit ZenBridge WebApp</string>
+    <string name="user_input">User input</string>
+    <string name="send_message">Send message</string>
+    <string name="user">User</string>
+    <string name="find_members">Find members</string>
+    <string name="member_phone_number">Member phone number</string>
+    <string name="_12365559999">+12365559999</string>
+    <string name="search_for_user">Search for user</string>
+    <string name="visit_zenbridge_webapp">Visit ZenBridge WebApp</string>
+    <string name="report_bugs_or_feedback">Report Bugs or Feedback</string>
+    <string name="you_must_accept_the_terms_and_conditions_in_order_to_use_this_application">You must accept the terms and conditions in order to use this application.</string>
+    <string name="i_accept_terms_and_conditions">I accept terms and conditions.</string>
+    <string name="proceed">Proceed</string>
+    <string name="cancel">Cancel</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+
+</resources>

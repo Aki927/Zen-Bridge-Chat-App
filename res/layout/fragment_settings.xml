@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    android:scrollbars="vertical"
+    android:orientation="vertical"
+    tools:ignore="NestedWeights"
+    tools:context=".SettingsFragment">
+
+    <ImageView
+        android:layout_width="194dp"
+        android:layout_height="162dp"
+        android:layout_gravity="center"
+        android:layout_weight="2"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/zen_bridge_logo"
+        android:maxWidth="100dp"
+        android:maxHeight="100dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/zb_logo"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".2"
+        android:layout_marginTop="40dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Change username" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".5"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/change_name_input"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:autofillHints="Enter username"
+            android:ems="10"
+            android:maxLength="6"
+            android:textSize="20sp"
+            android:inputType="text"
+            android:hint="Enter new username" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/change_name_button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Change" />
+    </LinearLayout>
+
+</LinearLayout>
